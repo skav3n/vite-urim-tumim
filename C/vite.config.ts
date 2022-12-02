@@ -13,6 +13,8 @@ export default ({ mode }) => {
         inject: {
           data: {
             title: env.VITE_APP_TITLE,
+            style: env.VITE_APP_STYLE,
+            favicon: env.VITE_APP_FAVICON,
           }
         }
       }),
